@@ -1,0 +1,123 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-image: url("selva.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    color: rgb(241, 7, 163);
+    font-style: arial;
+}
+
+P {
+    font-size: 200%;
+    color: rgb(11, 3, 117);
+    text-decoration-style: dotted ;
+}
+
+-------------------------------
+#Encabezado > li > a {
+
+    display: inline-block;
+    padding: 15px 30px;
+    font-size: 16px;
+    text-align: left;
+    text-decoration: none;
+    border: 2px solid #fc030f; 
+    border-radius: 5px;
+    background-color: rgb(28, 71, 1);
+    color: rgb(255, 255, 255);
+    cursor: pointer;
+}
+
+#Encabezado > li > a:hover {
+
+    background: #00ff2a;
+}
+
+#ir{
+    display: inline-block;
+    padding: 10px 10px;
+    font-size: 14px;
+    text-align: center;
+    text-decoration: none;
+    border: 2px solid #ffffff; 
+    border-radius: 10px;
+    background-color: rgb(112, 133, 99);
+    color: rgb(255, 255, 255);
+    cursor: pointer;
+
+}
+
+#ir:hover {
+
+    background: #fae102;
+
+}
+
+#BarraLateral > li > a {
+
+    display: inline-block;
+    font-size: 100%;
+    text-align: center;
+    text-decoration: none;
+    color: rgb(252, 4, 4);
+    cursor: pointer;
+    margin-left: 2px;
+
+}
+
+#BarraLateral > li > a:hover {
+
+    color: rgb(4, 215, 252);
+    
+}
+
+
+header > ul {
+    display: flex;
+    list-style-type: none;
+    justify-content: center;
+}
+
+div {
+    width: 68%;
+    max-width: 68%;
+}
+
+section {
+	width: 80%;
+	float: right;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+aside {
+	width: 19%;
+	float: left;
+    
+
+}
+
+section, header, aside {
+	border: 2px;
+	border-radius: 10px;
+	margin: 2px;
+	box-shadow: 0px 0px 10px #ffffff;
+	margin-bottom: 5px;
+	margin-top: 5px;
+}
+
+aside > ul{
+    display: table;
+    height: 100%;
+    position: relative;
+    list-style-type: none;
+}
+
+img{
+    margin-top: 2%;
+    width: 15%;
+    height: 25%;
+}
